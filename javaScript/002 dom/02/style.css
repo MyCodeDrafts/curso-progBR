@@ -1,0 +1,52 @@
+
+
+body {
+    background-color: rgb(228, 224, 217);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#button, #button2  {
+            
+    padding: 10px;
+    width: 150px;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: cornflowerblue;
+    color: #1a1919;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#button2 {
+            
+    display: none;
+}
+
+p {
+    color: rgb(68, 49, 235);
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.teste2 {
+    display: none;
+    color: rgb(224, 56, 174);
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: overline underline;
+    font-size: 40px;
+            
+}
+
+
+#teste3 {
+    display: none;
+    color: rgb(238, 65, 65);
+    
+    
+   
+            
+}

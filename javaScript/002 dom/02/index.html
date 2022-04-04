@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events 02</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <h1></h1>
+    <!-- this, faz com que seja a div -->
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)" " onclick="onClick(this)">
+        
+
+        <input id="button" type="button" value="Clique" onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="onClick(this)">
+
+        
+    </div>
+    <p id="teste" onclick="hide(this)">Aqui vai sumir quando eu clicar</p>
+
+    <p class="teste2">E esse aparece</p>
+
+    <p id="teste3">* Se tirar tirar o mouse do botão, tudo volta ao normal</p>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
