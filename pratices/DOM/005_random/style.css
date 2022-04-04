@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border: 2px solid rgb(14, 134, 170);
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fafafa;
+    background-color: #47aafa;
+
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    
+}
