@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação em HTML</title>
+
+    <style>
+        .button {
+            text-align: center;
+        }
+
+        .btn, .btn2 {
+            width: 150px;
+            height: 50px;
+            margin: 15px auto;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: aqua;
+            border: 0.1px solid rgb(114, 166, 226);
+            border-radius: 5px;
+        }
+
+        .tela {
+            
+            background-color: rgb(71, 13, 228);
+            width: 500px;
+            height: 500px;
+            position: relative;
+            left: 80px;
+        }
+
+        .circulo {
+            background-color: rgb(233, 227, 227);
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            border-radius: 100%;
+            text-align: center;
+            line-height: 25px;
+            overflow: hidden;
+            
+        }
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <div class="button">
+        <button class="btn">Play</button> 
+        <!-- <button class="btn2">II</button> -->
+    </div>
+    <div class="tela">
+
+        <div id="jogador" class="circulo"></div>
+
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
